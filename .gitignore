@@ -43,6 +43,15 @@ build/
 Build/
 build-*/
 
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# Client logs
+logs/
+
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt
@@ -66,3 +75,6 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+.venv/
+.vscode/
